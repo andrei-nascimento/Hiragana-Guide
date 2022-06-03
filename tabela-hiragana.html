@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tabela de Hiragana</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Guia do Hiragana</h1>
+    <p>Tabela hiragana com áudios. Escute e repita em seguida.</p>
+    
+    <div id="familia-aiueo">
+        <p>A<br>あ<br>
+        <audio controls src="audios/a.mp3"></audio>
+
+        <p>I<br>い<br>
+        <audio controls src="audios/i.mp3"></audio>
+
+        <p>U<br>う<br>
+        <audio controls src="audios/u.mp3"></audio>
+
+        <p>E<br>え<br>
+        <audio controls src="audios/e.mp3"></audio>
+
+        <p>O<br>お<br>
+        <audio controls src="audios/o.mp3"></audio>
+    </div>
+   <hr>
+    <div id="familia-kakikukeko">
+        <p>KA<br>か<br>
+        <audio controls src="audios/ka.mp3"></audio>
+
+        <p>KI<br>き<br>
+        <audio controls src="audios/ki.mp3"></audio>
+    
+        <p>KU<br>く<br>
+        <audio controls src="audios/ku.mp3"></audio>
+    
+        <p>KE<br>け<br>
+        <audio controls src="audios/ke.mp3"></audio>
+    
+        <p>KO<br>こ<br>
+        <audio controls src="audios/ko.mp3"></audio>
+    </div>
+    <hr>
+    
+
+
+
+
+
+
+
+
+
+
+    <a href="#rodape">Ir para o rodapé</a> <!--referenciar um link-->
+    <p>No momento parece confuso mas está tudo sobre controle, ou não.</p>
+    
+    <table> <!--Criar tabela-->
+        <tr> <!--delimitar a tabela-->
+            <td>Linha 1, Coluna 1</td> <!--indicar as linhas-->
+            <td>Linha 1, Coluna 2</td>
+        </tr>
+        <tr>
+            <td>Linha 2, Coluna 1</td>
+            <td>Linha 2, Coluna 2</td>
+        </tr>
+        <tr>
+            <td>Linha 3, Coluna 1</td>
+            <td>Linha 3, Coluna 2</td>
+        </tr>
+    </table>
+    <br>
+    <table> <!--Criar a tabela-->
+        <thead> <!--criar cabeçalho-->
+            <tr> <!--delimitar a tabela-->
+                <th>Produto</th> <!--deixa o título com destaque-->
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody> <!--Criar o corpo-->
+            <tr> <!--delimitar a tabela-->
+                <td>Feijão</td> <!--indicar as linhas-->
+                <td>R$ 8,70</td>
+                <td>1 pacote</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>R$ 4,99</td>
+                <td>2 pacotes</td>
+            </tr>
+        </tbody>
+        <tfoot> <!--Criar o rodapé/última informação-->
+            <tr>
+                <td>Total</td>
+                <td>R$ 18,68</td>
+                <td>3 itens</td>
+            </tr>
+        </tfoot> 
+    </table>
+
+    <ol> <!--Lista ordenada-->
+        <li>Item 1</li> <!--define cada item da lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ul> <!--Lista não ordenada-->
+        <li>Item 1</li> <!--define cada item da lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="I"> <!--Lista ordenada com o atributo que permite escolher o marcador-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <dl> <!--Lista de definição-->
+        <dt>Título 1</dt> <!--título-->
+        <dd>Definição 1</dd> <!--definição-->
+        <dt>Título 2</dt>
+        <dd>Definição 2</dd>
+        <dt>Título 3</dt>
+        <dd>Definição 3</dd>
+    </dl>
+
+    <form action="salvar_dados.php" method="post"> <!--Criar formulário-->
+        <input type="text" placeholder="Digite aqui"> <br/> <!--campo para escrita-->
+        <input type="checkbox">Pão de queijo <br/> <!--caixa de seleção-->
+        <input type="radio">Só vai, confia <br/> <!--bolinha de seleção-->
+        <input type="range"> <br/> <!--faixa contínua com bolinha-->
+        <input type="submit" value="Enviar"> <!--botão-->
+    </form>
+    
+    <p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+    <p>Texto em itálico com <i>italics</i> e <em>emphasis</em>.</p>
+    <p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+    <p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+    <p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+
+    <audio controls src="ride.mp3"></audio> <!--Incluir um áudio--> 
+
+    <audio controls src="ride.mp3" >
+        <source src="ride.ogg" type="audio/ogg"> <!--Escolher o formato-->
+        <source src="ride.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <video src="demon.mp4" width="640" height="360" controls></video> <!--Incluir um vídeo-->
+
+    <video src="estudo.mp4" width="640" height="360" controls> 
+        <source src="estudo.webm" type="video/webm"> <!--Escolher o formato-->
+        <source src="estudo.mp4" type="video/mp4">
+    </video>
+    <br>
+    <input type="text" value="input 1">
+    <input type="text" value="input 2">
+    <div><input type="text" value="input 3"></div> <!--Divide o conteúdo em blocos. Usado com CSS-->
+    <div><input type="text" value="input 4"></div>
+
+    <p>Este é um texto com <span> trecho em destaque</span>.</p> <!--Inserido lateralmente. Usado com CSS-->
+    <p>Este é um texto com <span style="background: #1abc9c; border-radius:5px; padding:5px">
+        trecho em destaque.</span>
+    </p>
+
+    
+
+    <p id="rodape">Parágrafo do rodapé.</p> <!--destino do link referenciado-->
+</body>
+</html>
