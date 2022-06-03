@@ -7,7 +7,6 @@ h1{
 audio{
     height: 50px;
     width: 120px;
-    ;
 }
 
 p{
@@ -15,11 +14,23 @@ p{
     text-align: center;
 }
 
-#familia-aiueo, #familia-kakikukeko{
-    font-size: 60px;
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
-#familia-aiueo, #familia-kakikukeko{
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#familia-aiueo, #familia-kakikukeko, #familia-sashisuseso, #familia-tachitsuteto, #familia-naninuneno{
+    font-size: 45px;
+    font-weight: bold
+}
+
+#familia-aiueo, #familia-kakikukeko, #familia-sashisuseso, #familia-tachitsuteto, #familia-naninuneno, a{
 	display: grid;
     grid-auto-flow: column;
     text-align: center;
@@ -30,3 +41,4 @@ hr{
     height: 3px;
     background-image: linear-gradient(to right, transparent, #a0a1a1, transparent); 
 }
+
