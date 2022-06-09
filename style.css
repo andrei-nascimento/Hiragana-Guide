@@ -1,5 +1,8 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-align: center;
 }
@@ -10,37 +13,43 @@ audio{
 }
 
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
-#menu{
+.menu{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
-a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
-
-#titulo1, #titulo2, #titulo3, #titulo4, #titulo5{
+.titulosLink{
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-align: center;
+    box-sizing: border-box;
+    background-color: plum;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: #a0a1a1 0px 4px 0px;
 }
 
-#familia-aiueo, #familia-kakikukeko, #familia-sashisuseso, #familia-tachitsuteto, #familia-naninuneno{
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.alfabeto{
+    color: black;
     font-size: 45px;
-    font-weight: bold
-}
-
-#familia-aiueo, #familia-kakikukeko, #familia-sashisuseso, #familia-tachitsuteto, #familia-naninuneno, a{
-	display: grid;
+    font-weight: bold;
+    display: grid;
     grid-auto-flow: column;
     text-align: center;
+    margin-top: -30px;
 }
 
 hr{
