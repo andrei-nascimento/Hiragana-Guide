@@ -79,7 +79,7 @@ hr{
     background-image: linear-gradient(to right, transparent, #a0a1a1, transparent); 
 }
 
-#titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9, #titulo10{
+.tituloFamilia{
     margin: 0px 0px 50px;
 }
 
