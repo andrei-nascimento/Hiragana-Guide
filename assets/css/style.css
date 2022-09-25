@@ -1,3 +1,10 @@
+:root {
+    --bg-background: ghostwhite;
+    --purple: #4A314D;
+    --purple-disabled: #6B6570;
+    --dark-purple: #1A090D;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,9 +13,103 @@
 }
 
 body {
-    background-color:aqua;
+    background-color:ghostwhite;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.header {
+    margin-right: 2rem;
+}
+
+section {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.05rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex; /*Facilita o trabalho com as caixas*/
+    width: 85vw; /*Ocupa 80% da tela*/
+    margin: 0 auto; /*Ajuda a centralizar o conteiner*/
+    justify-content: space-between; /*Separa os contéudos da tag*/
+    font-size: 2rem; /*Tamanho da fonte*/
+    padding: 2.25rem 1rem; /*Distanciamento da margem da tela*/
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+li {
+    margin-right: 1rem;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    
+}
+
+a:hover {
+    text-shadow: 0 0 2px purple;
+  }
+
+hr {
+    width: 80vw;
+    margin: auto;
+}
+
+main {
+    
+    width: 85vw;
+    margin: 0 auto;
 }
 
 footer{
-    margin-bottom: 30px;
+    display:flex;
+    justify-content: space-between;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 2.25rem 1rem;
+}
+
+#desenvolvedor {
+    font-size: 1.2rem;
+}
+
+audio {
+    width: 7.5rem;
+}
+
+#vogais, #ka, #sa, #ta, #na, #ha, #ma, #ya, #ra, #wa-n {
+    text-align: center;
 }
